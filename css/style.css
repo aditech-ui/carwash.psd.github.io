@@ -1,0 +1,682 @@
+/*========================= GOOGLE FONTS ======================= 
+================================================================*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+/*========================== START OF CSS STYLE ==================
+=================================================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+
+/*========================= HEADER SECTION START ===================
+===================================================================*/
+
+/************* MINI HEADER CSS ***********/
+.mini-header{
+    background: #0b4b8a;
+    padding: 10px 20px;
+}
+.info_links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.info_links span{
+    margin-right: 10px;
+    color: #cedbe8;
+    font-size: 14px;
+}
+.info_links span a{
+    color: #cedbe8;
+    font-size: 14px;
+}
+.info_links span .info-fa{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.mini_header_links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mini_header_links .contact_links ul{
+    display: block;
+    margin-bottom: 0px!important;
+}
+.mini_header_links .contact_links li{
+    padding:0px 5px;
+    display: inline-block;
+}
+.mini_header_links .contact_links li:last-child{
+    margin-right: 10px;
+}
+.mini_header_links .contact_links li a{
+    color: #cedbe8;
+    font-size: 14px;  
+}
+.mini_header_links .social_links a .social-fa{
+    color: #cedbe8;
+    font-size: 16px; 
+}
+
+/************** MAIN HEADER CSS ****************/
+.main-header .navbar-logo{
+    width: 100%;
+    height: 100%;
+}
+.main-header .my-nav-bg{
+    background: #ffffff;
+}
+.main-header .navbar-nav .nav-item .nav-link{
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    padding-right: 10px;
+}
+
+/*========================== HEADER SECTION ENDS ========================
+=========================================================================*/
+
+
+
+/*========================== BANNER SECTION START =======================
+=========================================================================*/
+
+/***************** MAIN BANNER ******************/
+.banner-container .carousel .carousel-wrapper{
+    position: relative;
+}
+.banner-container .carousel .carousel-wrapper .carousel-wrap{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.banner-container .carousel .carousel-wrapper .caption-wrapper{
+    margin: 0 15%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 40px;
+    height: 40px;
+}
+.carousel-control-next-icon, .carousel-control-next-icon{
+    width: 40px;
+    height: 40px;
+}
+
+/***************** BANNER SLIDER-1 STARTS ***************/
+.banner-container .carousel .caption-wrapper .price-label{
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 0% 100%);
+    background: #ffe823;
+    margin-bottom: 15px;
+    padding: 8px 13px 8px 8px;
+    width: 280px;
+}
+.banner-container .carousel .caption-wrapper .price-label em{
+     font-weight: 800;
+     font-size: 25px;
+     padding: 0px -1px;
+}
+.banner-container .carousel .caption-wrapper .main-heading h3{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.banner-container .carousel .caption-wrapper .main-heading{
+    margin-bottom: 20px;
+}
+.banner-container .carousel .caption-wrapper .view-btn button{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background: #00aeef;
+    font-size: 12px;
+    border: 1px solid #00aeef;
+}
+/**************** BANNER SLIDER-1 ENDS *********************/
+
+/**************** BANNER SLIDER-2 STARTS *******************/
+.banner-container .carousel .caption-wrapper .customer-label {
+    display: table-cell;
+    height: 300px; 
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #fff;
+    color: #000;
+    padding: 20px;
+}
+.banner-container .carousel .caption-wrapper .discount-offer {
+    display: table-cell;
+    height: 110px;
+    width: 110px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #fbe806;
+    color: #1b0101;
+    font: 10px "josefin sans", arial;
+    padding: 15px;
+    position: absolute;
+    left: 388px;
+    top: 20px;
+}
+.banner-container .carousel .caption-wrapper .customer-label h2{
+    color: #000;
+    font-size: 32px;
+}
+.banner-container .carousel .caption-wrapper .customer-label p{
+    color: #000;
+    font-size: 20px;
+}
+.banner-container .carousel .caption-wrapper .discount-offer p{
+    color: #0b4b8a;
+    font-size: 12px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+.banner-container .carousel .caption-wrapper .discount-offer strong{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #0b4b8a;
+}
+/**************** BANNER SLIDER-2 ENDS *******************/
+
+/**************** BANNER SLIDER-3 STARTS *****************/
+.banner-container .carousel .center-banr{
+    margin: 0 auto!important;
+}
+.banner-container .carousel .caption-wrapper h2{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.banner-container .carousel .caption-wrapper .poly-shape{
+    background: #ffe823;
+    padding: 5px 0px;
+    width: 300px;
+    clip-path: polygon(0 0, 100% 0, 92% 100%, 8% 100%);
+    margin: 20px auto;
+}
+.banner-container .carousel .caption-wrapper .poly-shape p{
+    font-size: 17px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.banner-container .carousel .caption-wrapper .par-info{
+    text-align: center;
+    margin-top: 25px;
+}
+.banner-container .carousel .caption-wrapper .par-info em{
+    color: #fff;
+    font-size: 17px;
+}
+.banner-container .carousel .caption-wrapper .btm-line{
+    border-bottom: 2px solid #969a9c;
+    margin: 20px auto;
+    width: 80px;
+}
+/*========================== BANNER SECTION ENDS ========================
+=========================================================================*/
+
+
+/*========================= SERVICE SECTION START =========================
+=========================================================================*/
+.service-container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.service-container .sr-box {
+    position: relative;
+    width: 350px;
+    height: 245px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.service-container .sr-box .sr-img{
+    position: absolute;
+    left: 0px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.service-container .sr-box .sr-img img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    max-width: 100%;
+}
+.service-container .my-row-st{
+  margin-top: 50px;  
+}
+.service-container .sr-label{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #0b4b8a;
+    height: 20%; 
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+.service-container .sr-label h3{
+    text-align: center;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 22px;
+    font-family: 'Muli', sans-serif;
+}
+.service-container .sr-label a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service-container .sr-label .my-btn-clr{
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  padding: 5px 8px; 
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.service-container .sr-box:hover .sr-label{
+    height: 50%;
+} 
+.customer-support-container{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.customer-support-container .support-wrap{
+    background: #4175aa;
+    text-align: center;
+    padding: 50px 0px;
+}
+.customer-support-container .support-wrap h2{
+    font-size: 38px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 35px;
+}
+.customer-support-container .support-wrap p{
+    font-size: 20px;
+    color: #fff;
+    line-height: 38px;
+}
+.customer-support-container .support-wrap .support-btn .btn{
+    font-size: 14px; 
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 12px 17px;
+    margin: 0px 5px;
+}
+.customer-support-container .support-wrap .support-btn .w-btn{
+    background: #fff;
+    color: #000;
+}
+.customer-support-container .support-wrap .support-btn .b-btn{
+    background: #00aeef;
+    color: #fff;
+}
+/*========================= SERVICE SECTION ENDS =======================
+========================================================================*/
+
+
+
+/*========================= OUR MISSION SECTION STARTS ==================
+=========================================================================*/
+.mission-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mission-container .mission-title{
+    font-size: 32px;
+    color:#000;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+.my-accordian .card-header{
+    background: #fff;
+}
+
+.mission-container span{
+    color:#4175aa;
+    font-size: 17px;
+}
+.mission-container .btn-link{
+    text-decoration: none!important;
+}
+/*.mission-container .info_links span .fa, .fas{
+    color: #cac5c5;
+}*/
+.mission-container .collapse-fa{
+    color: #cac5c5;
+    margin-right: 5px;
+}
+.mission-container .grid-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+    height: auto;
+}
+.mission-container .grid-gallery img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mission-container .grid-gallery .gallery-img-a{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.mission-container .grid-gallery .gallery-img-b{
+    grid-column: 2/3;
+    grid-row: 1 /3;
+}
+.mission-container .grid-gallery .gallery-img-c{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+/*========================= OUR MISSION SECTION ENDS =========================
+=============================================================================*/
+
+
+
+/*========================= PLANS & PRICING SECTION STARTS ====================
+===============================================================================*/
+.pricing-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.pricing-container .pricing-heading h2{
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.pricing-container .card{
+    cursor: pointer;
+    transition: 0.5s ease;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.pricing-container .card .card-header{
+    font-size: 20px;
+    font-weight: 800;
+    background: #fcfcfc;
+}
+.pricing-container .pricing-main-head{
+    margin-bottom: 40px;
+}
+.pricing-container .pricing-par p{
+    font-size: 20px;
+}
+.pricing-container .card .card-body .card-title .price-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-container .card .card-body .card-title .price-tag h2{
+    font-size: 60px;
+    font-weight: 400; 
+}
+.pricing-container .card .card-body .card-title .price-tag sup{
+    font-size: 22px;
+}
+.pricing-container .card .card-body .card-title p{
+    color:#858585;
+    font-size: 16px;
+}
+.pricing-container .card .card-title{
+    border-bottom:1px solid #f2f2f2!important;
+}
+.pricing-container .card .card-body .pricing-list-details{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.pricing-container .card .card-body .pricing-list-details ul li{
+    text-align: left;
+    color: #00aeef;
+}
+.pricing-container .card .card-body .pricing-list-details ul li p{
+    color: #000;
+}
+.pricing-container .card .card-footer{
+    background: #fff;
+    border-top:0px;
+    padding-bottom: 20px;
+}
+.pricing-container .card .card-footer .join-btn{
+    border: 1px solid #0b4b8a;
+    background: #fff;
+    color:#000;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+}
+.card-deck{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.pricing-container .card:hover .card-header{
+    background: #0b4b8a;
+    color:#fff;
+}
+.pricing-container .card:hover .join-btn{
+    background: #00aeef;
+    color: #fff;
+    border: 1px solid #00aeef; 
+}
+.pricing-container .card:hover{
+    box-shadow: 1px 8px 20px 0px #d8d5d5;
+}
+/*======================== PLANS & PRICING SECTION ENDS ==============================
+=====================================================================================*/
+
+
+
+/*====================== CUSTOMER FEEDBACK SECTION STARTS ============================
+======================================================================================*/
+#customer-wrapper{
+    background-image: url("../img/customer_feedback_bg.png");
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay-bg{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    background-color:rgb(253, 253, 251);
+    opacity: 0.9;
+    z-index: 1;
+}
+.customer-container{
+    margin-top: 80px;
+}
+.customer-container .customer-fb-heading{
+    text-align: center; 
+    padding: 80px 0px;
+    z-index: 2;
+}
+.customer-container .customer-fb-wrap{
+    z-index: 3;
+}
+.customer-container .customer-fb-heading h2{
+   font-size: 36px;
+   font-weight: 800; 
+}
+.customer-container .customer-reviews{
+    z-index: 99;
+}
+.owl-carousel .owl-dots{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+}
+.owl-carousel .owl-dots button{
+     border: 5px solid #c7c5c5;
+     border-radius: 25px;
+     margin-right: 10px;
+}
+.owl-carousel .owl-dots button.active{
+     border-color:#0b4b8a!important;
+}
+blockquote{
+    color: #000;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+}
+blockquote:before {
+    content: '\201C';
+    color: #cceffc;
+    font-size: 8rem;
+    position: absolute;
+    top: -65px;
+    left: -20px;
+    z-index: -1;
+    font-family: 'Times New Roman';
+    font-weight: 800;
+
+}
+.customer-container .customer-reviews .card-body .comment-wrap{
+    padding: 25px 25px;
+}
+.customer-container .customer-reviews .comment-wrap .card-text{
+    text-align: center;
+}
+.customer-container .customer-reviews .comment-wrap .card-text .review-rating{
+    display: flex;
+    justify-content: center;
+}
+.customer-container .customer-reviews .comment-wrap .card-text .review-rating li{
+   list-style: none;
+}
+.customer-container .customer-reviews .comment-wrap .card-text .review-rating li .rating-fa{
+     color: #f9df03;
+}
+/*============================= CUSTOMER FEEDBACK SECTION ENDS ===================================
+=================================================================================================*/
+
+
+
+
+/*================================ FOOTER SECTION STARTS =========================================
+===============================================================================================*/
+#footer-wrapper{
+    background: url('../img/contact_sec_bg.png');  
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-container{
+    padding:55px 0px;
+}
+.footer-container .footer-logo{
+    padding-bottom: 10px;
+}
+.footer-container .copywrite{
+    padding:28px 0px;
+}
+.footer-container .copywrite h4{
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+}
+.footer-container .useful-links{
+    padding: 20px 0px;
+}
+.footer-container .useful-links h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+}
+.footer-container .useful-links-wrap{
+    display: flex;
+}
+.footer-container .useful-links-wrap .col-footer-links:last-child{
+    margin-left: 25px;
+}
+.footer-container .useful-links-wrap .col-footer-links li{
+    list-style: none;
+}
+.footer-container .useful-links-wrap .col-footer-links li a{
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;   
+    line-height: 35px;
+}
+.footer-container .footer-info-links{
+   padding: 20px 0px; 
+   display: flex;
+}   
+.footer-container .footer-info-links li{
+    list-style: none;
+    color: #fff;
+}
+.footer-container .footer-info-links .ic-top li:first-child{
+   padding-top: 5px;
+}
+.footer-container .footer-info-links li .ftr-fa{
+    font-size: 35px;
+    padding: 20px;
+}
+.footer-container .footer-info-links .mr-tp li:first-child{
+    padding: 20px 0px;
+}
+.footer-container .footer-info-links .mr-tp li:last-child{
+    padding: 10px 0px;
+}
+.footer-container .footer-info-links .mr-tp li{
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+.main-footer-disable{
+    display: none;
+}
+/*================================ FOOTER SECTION ENDS =========================================
+===============================================================================================*/
+
+
+/****** SMOOTH SCROLLING *****/
+html {
+  scroll-behavior: smooth;
+}
